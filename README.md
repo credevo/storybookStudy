@@ -1,5 +1,6 @@
-## storybookStudy
+### storybookStudy
 
+## scss storybook setting
 npm init -y
 npm i -D react react-dom
 
@@ -30,15 +31,18 @@ npm i -D sass style-loader css-loader sass-loader
 //.storybook/main.js
 ```js
 module.exports = {
-  addons: [
-   {
-     name: '@storybook/addon-postcss',
-     options: {
-       postcssLoaderOptions: {
-         implementation: require('postcss'),
-       },
-     },
-   }
-  ]
+  ...
+  core: {
+    builder: "@storybook/builder-webpack5",
+  },
+  ...
+  webpackFinal: async (config, { configType }) => {
+    config.module.rules.push({
+      test: /\.scss$/,
+      use: ["style-loader", "css-loader", "sass-loader"],
+      include: path.resolve(__dirname, "../"),
+    });
+    return config;
+  },
 }
 ```
