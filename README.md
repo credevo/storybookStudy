@@ -54,14 +54,18 @@ module.exports = {
 }
 ```
 
-####reference url
+### reference url
 
 markdown cheet : https://gist.github.com/stevenyap/7038119
-https://dev.to/iamrishupatel/how-to-create-a-react-component-library-using-storybook-typescript-scss-and-rollup-4pin
-https://github.com/storybookjs/storybook/issues/17768
-https://storybook.js.org/blog/storybook-for-webpack-5/
-https://gist.github.com/shilman/8856ea1786dcd247139b47b270912324#upgrade
-https://github.com/storybookjs/presets/blob/master/packages/preset-scss/README.md
-https://stackoverflow.com/questions/71630324/cannot-import-scss-module-styles-the-same-way-with-storybook-and-gatsby
 
----
+https://dev.to/iamrishupatel/how-to-create-a-react-component-library-using-storybook-typescript-scss-and-rollup-4pin
+
+https://github.com/storybookjs/storybook/issues/17768
+
+https://storybook.js.org/blog/storybook-for-webpack-5/
+
+https://gist.github.com/shilman/8856ea1786dcd247139b47b270912324#upgrade
+
+https://github.com/storybookjs/presets/blob/master/packages/preset-scss/README.md
+
+https://stackoverflow.com/questions/71630324/cannot-import-scss-module-styles-the-same-way-with-storybook-and-gatsby
